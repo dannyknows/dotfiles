@@ -66,7 +66,6 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'mattn/emmet-vim'
-Plug 'plasticboy/vim-markdown'
 
 " Vim Utils
 
