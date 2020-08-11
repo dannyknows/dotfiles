@@ -5,6 +5,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 export RUBYOPT='-W:no-deprecated -W:no-experimental'
 
+# tmux color settings
+alias tmux="TERM=screen-256color-bce tmux"
+
 # Navigation
 alias ..='cd ..'                                                                
 alias cd..='cd ..'                                                              
@@ -17,6 +20,7 @@ alias mkdir='mkdir -p'
 alias kp='kill -9'                                                              
 alias vimrc='vim ~/.vimrc'                                                                                  
 alias zshrc='vim ~/.zshrc'
+alias ys='yarn start'
 
 # Git                                                                           
 alias gs='git status'
@@ -25,6 +29,7 @@ alias gd='git diff'
 alias gc='git commit -m'                                                        
 alias gca='git commit --amend' 
 alias gp='git push'                                                 
+alias gpu='git pull'
                                                                                   
 # Rails                                                                         
 alias rs='rails server'
@@ -35,6 +40,7 @@ alias py='python'
 alias jp='jupyter notebook'
 
 # Directories                                                                   
+alias fun='cd ~/fun'
 alias dev='cd ~/dev'                                                            
 alias desktop="cd ~/Desktop"
 
