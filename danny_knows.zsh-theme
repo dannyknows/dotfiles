@@ -1,0 +1,1 @@
+/Users/danny/.oh-my-zsh/themes/danny_knows.zsh-theme
