@@ -77,7 +77,6 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'honza/vim-snippets'
-Plug 'SirVer/ultisnips'
 Plug 'ervandew/supertab'
 
 " Colour Scheme
