@@ -1,3 +1,10 @@
+" TODO
+" - autocomplete commands/find a new plugin
+" - syntax highlighting for each language i use 
+" - multiline selection and commenting in/out
+" - linting? am i a noob for relying on linting?
+"
+"
 "                               ___          ___          ___     
 "        ___       ___         /__/\        /  /\        /  /\    
 "       /__/\     /  /\       |  |::\      /  /::\      /  /:/    
