@@ -1,4 +1,5 @@
 eval "$(rbenv init -)"
+eval "$(direnv hook zsh)"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -31,7 +32,10 @@ alias gc='git commit -m'
 alias gca='git commit --amend' 
 alias gp='git push'                                                 
 alias gpu='git pull'
-                                                                                  
+
+# Javascript
+alias ts='ts-node'
+
 # Rails                                                                         
 alias rs='rails server'
 alias rc='rails console'                                                        
@@ -41,7 +45,9 @@ alias py='python'
 alias jp='jupyter notebook'
 
 # Directories                                                                   
+alias school='cd ~/school'
 alias fun='cd ~/fun'
+alias work='cd ~/work'
 alias dev='cd ~/dev'                                                            
 alias desktop="cd ~/Desktop"
 
@@ -163,3 +169,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
